@@ -2,7 +2,7 @@
 CONFIG_USE_APK=n
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=y
-CONFIG_PACKAGE_luci-app-nikki=y
+CONFIG_PACKAGE_luci-app-nikki=n
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
@@ -25,7 +25,7 @@ CONFIG_PACKAGE_luci-app-qrencode=n
 CONFIG_SING_BOX_BUILD_WIREGUARD=n
 CONFIG_PACKAGE_luci-proto-wireguard=n
 CONFIG_PACKAGE_luci-app-store=n
-CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-dockerman=n
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
 #参数调整
